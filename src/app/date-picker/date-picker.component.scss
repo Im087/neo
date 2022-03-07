@@ -1,0 +1,16 @@
+.date-picker-container {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  flex-wrap: wrap;
+
+  button {
+    height: 52px;
+    margin: 0 50px;
+    padding: 0 50px;
+
+    &:hover {
+      box-shadow: 0 0 0 50px rgba(0, 0, 0, 0.2) inset;
+    }
+  }
+}

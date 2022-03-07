@@ -1,0 +1,25 @@
+.header {
+
+  mat-toolbar {
+    padding: 50px;
+
+    mat-toolbar-row {
+      justify-content: center;
+  
+      h1 {
+        font-size: 60px;
+      }
+    }
+  }
+}
+
+.container {
+  margin: 25px auto;
+  padding: 0 25px 25px 25px;
+}
+
+@media screen and(min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}

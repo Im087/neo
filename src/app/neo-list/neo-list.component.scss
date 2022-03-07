@@ -1,0 +1,26 @@
+mat-table {
+  width: 100%;
+
+  mat-row {
+    cursor: pointer;
+
+    &:hover {
+      background-color: #3f51b5;
+
+      mat-cell {
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+
+.dialog {
+
+  h3 {
+    text-align: center;
+  }
+
+  .details li ul {
+    padding-left: 10px;
+  }
+}
